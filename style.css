@@ -41,7 +41,7 @@ section{
     padding:1rem;
 }
 .hand-wash{
-    background:url(images/covid-1.gif) no-repeat;
+    background:url(https://drive.google.com/thumbnail?id=1ALuAEWn1QLRTQMONerZ7IP9HzRDc-zce) no-repeat;
 }
 header{
     width:100%;
@@ -91,7 +91,7 @@ header.sticky{
 }
 
 .home{
-    background:url(images/home-bg.gif) no-repeat;
+    background:url(https://drive.google.com/thumbnail?id=19AN23o09cXJPP2M0a8GpKLbmBYGU-BEj) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -113,9 +113,17 @@ header.sticky{
     font-weight: normal;
 }
 
+.home .content iframe{
+    display: inline-block;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+  
+    
+}
+
 .home .content .btn{
     display: inline-block;
-    padding:.7rem 3rem;
+    padding:.5rem 4rem;
     color:#fff;
     background:var(--blue);
     border-radius: .5rem;
@@ -164,7 +172,7 @@ header.sticky{
 }
 
 .symptoms{
-    background:url(../images/background-img.jpg) no-repeat;
+    background:url(https://drive.google.com/thumbnail?id=1PjJ6wF4survZVde7mIUz5MCklcwH7XrF/view?usp=sharing) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -175,10 +183,11 @@ header.sticky{
     align-items: center;
     justify-content: center;
 }
-
+/*
 .symptoms .column .main-image img{
     width: 43vh;
 }
+*/
 
 .symptoms .column .box-container{
     display: flex;
@@ -207,6 +216,7 @@ header.sticky{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .precautions .column .box-container{
     margin:1.5rem;
@@ -250,7 +260,7 @@ header.sticky{
     color:var(--dark-blue);
     padding:1rem 0;
 }
-
+/*
 .doctor{
     background:url(../images/background-img.jpg) no-repeat;
     background-size: cover;
@@ -317,7 +327,7 @@ header.sticky{
     color:#fff;
     transform: rotate(360deg);
 }
-
+*/
 .hand-wash .column{
     display: flex;
     justify-content: center;
@@ -381,9 +391,11 @@ header.sticky{
 
 .footer .box-container .box a{
     font-size: 1.5rem;
+    
     color:var(--dark-blue);
     padding:.5rem 0;
     display: block;
+  
 }
 
 .footer a:hover{
