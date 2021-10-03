@@ -40,9 +40,14 @@ section{
     font-weight: normal;
     padding:1rem;
 }
+
 .hand-wash{
-    background:url(https://drive.google.com/thumbnail?id=1ALuAEWn1QLRTQMONerZ7IP9HzRDc-zce) no-repeat;
+    background:url(https://drive.google.com/thumbnail?id=1csXVIDeM1NYqSdAoxNTpjL1oO3zUmvAM) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 header{
     width:100%;
     display: flex;
@@ -136,11 +141,20 @@ header.sticky{
     background:var(--dark-blue);
 }
 
+.prevent
+{
+    background:url(https://drive.google.com/thumbnail?id=1xOD7TF-DmKbhq55GAGZnmdJiF_ErLWHh) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .prevent .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background:#fff;
 }
 
 .prevent .box-container .box{
@@ -149,6 +163,7 @@ header.sticky{
     margin:1rem;
     padding:1rem;
     text-align: center;
+    
 }
 
 .prevent .box-container .box img{
@@ -167,12 +182,19 @@ header.sticky{
     padding:1rem;
 }
 
+.prevent .box-container .box li{
+    color:var(--dark-blue);
+    font-size: 1.4rem;
+    padding:0.2rem;
+    text-align: left;
+}
+
 .prevent .box-container .box:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 .symptoms{
-    background:url(https://drive.google.com/thumbnail?id=1PjJ6wF4survZVde7mIUz5MCklcwH7XrF/view?usp=sharing) no-repeat;
+    background:url(https://drive.google.com/thumbnail?id=1PjJ6wF4survZVde7mIUz5MCklcwH7XrF) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -260,6 +282,13 @@ header.sticky{
     color:var(--dark-blue);
     padding:1rem 0;
 }
+
+.precautions .column .box-container .box li{
+    font-size: 1.4rem;
+    color:var(--dark-blue);
+    padding:0.2rem 0;
+    text-align: left;
+}
 /*
 .doctor{
     background:url(../images/background-img.jpg) no-repeat;
@@ -333,9 +362,19 @@ header.sticky{
     justify-content: center;
 }
 
+
 .hand-wash .column .main-image img{
-    width:25vw;
+    /*
+  width:25vw;
+  height:vw;
+  */
+  padding:1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width:20vw;
+  height:15vw;
 }
+
 
 .hand-wash .column .box-container{
     display: flex;
